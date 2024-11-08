@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background-color: #141414;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 384px;
+  height: 611px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: auto;
+  height: 88px;
+  border-radius: 50%;
+  margin: 40px auto 24px auto;
+}
+
+.title {
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 4px;
+  color: #c4f82a;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  display: block;
+  height: 45px;
+  background-color: #333333;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+
+.button-div {
+  margin: 24px 40px 40px 40px;
+}
+
+.button:hover {
+  background-color: #c4f82a;
+  color: #333333;
+  transform: scaleX(1.07) scaleY(1.09);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 456px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 327px;
+    height: 579px;
+  }
+  .button-div {
+    margin: 24px;
+  }
+}
