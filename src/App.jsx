@@ -3,6 +3,7 @@ import links from "../links";
 
 export default function App() {
   return (
+    <div className="card-container">
     <div className="card">
       <img src="/profile-pic.jpg" alt="my picture" />
 
@@ -21,6 +22,7 @@ export default function App() {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 }
