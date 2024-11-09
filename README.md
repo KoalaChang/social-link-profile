@@ -30,7 +30,7 @@ Users should be able to:
 ![](./public/截圖%202024-11-09%20下午4.21.07.png)
 
 
-<img src="/截圖 2024-11-09 下午4.21.49.png" width="500" height="auto" />
+<img src="./public/截圖 2024-11-09 下午4.21.49.png" width="500" height="auto" />
 
 
 ![](./public/截圖%202024-11-09%20下午4.26.02.png)
