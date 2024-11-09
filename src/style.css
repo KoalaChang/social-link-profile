@@ -94,7 +94,8 @@ p {
 
 @media (max-width: 375px) {
   .card {
-    max-width: 327;
+    margin: auto 24px;
+    max-width: 300px;
     width: 100%;
   }
   .button-div {
